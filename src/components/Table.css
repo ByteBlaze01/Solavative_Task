@@ -1,0 +1,38 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #DEE2E6;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  font-weight: 700;
+}
+
+.table-container{
+    margin-top: 20px;
+}
+
+.country-div {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.countryName{
+    margin-left: 10px;
+}
+.spinner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.no-result{
+    text-align: center;
+}
